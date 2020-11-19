@@ -1,0 +1,17 @@
+{
+  "name": "test-liner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "adlib": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "js-beautify": "^1.13.0",
+    "web-resource-inliner": "^5.0.0"
+  }
+}
