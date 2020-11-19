@@ -1,8 +1,8 @@
 # Code-Inline Instructions
 
 * Download/Pull files from Repo.
-* open folder in the terminal and type `npm install`
-* once done, create a new folder named `creatives` and `output`
+* Open folder the terminal and type `npm install`
+* Once done, create a new folder named `creatives` and `output`
 
 
 ## How it works.
