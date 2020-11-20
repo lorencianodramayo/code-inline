@@ -17,6 +17,13 @@
 
 ## Sample output
 
+##### Uncompressed
+
+![Uncompressed](https://storage.googleapis.com/adlib-storage/code-inline/uncompress.png)
+
+##### Compressed
+
+![Compressed](https://storage.googleapis.com/adlib-storage/code-inline/compress.png)
 
 
 ## Requirements
