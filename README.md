@@ -15,6 +15,16 @@
 
 ![Checking Output](https://storage.googleapis.com/adlib-storage/code-inline/Screen%20Shot%202020-11-20%20at%207.48.24%20AM.png)
 
+## Sample output
+
+##### Uncompressed
+
+![Uncompressed](https://storage.googleapis.com/adlib-storage/code-inline/uncompress.png)
+
+##### Compressed
+
+![Compressed](https://storage.googleapis.com/adlib-storage/code-inline/compress.png)
+
 
 ## Requirements
 
