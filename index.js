@@ -18,8 +18,11 @@ const getDirectories = source =>
     .map(dirent => dirent.name)
 
 getDirectories("creatives").forEach((dir) => {
-    if (!fs.existsSync(path.join("output", dir))){
-        fs.mkdirSync(path.join("output", dir))
+    if (!fs.existsSync("output")){
+        fs.mkdirSync("output")
+        if (!fs.existsSync(path.join("output", dir))){
+            fs.mkdirSync(path.join("output", dir))
+        }
     }
 
     test.html( {
