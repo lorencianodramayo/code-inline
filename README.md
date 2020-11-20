@@ -1,7 +1,9 @@
 # Code-Inline Instructions
 
 * Download/Pull files from Repo.
-* Access the project folder using cmd/terminal and type `npm install`
+* Access the project folder using cmd/terminal and type `npm init -y && npm install`
+* Make sure dependencies are all installed (it should generate a `node_modules` folder)
+  otherwise, remove `package-lock.json` and type `npm init -y && npm install` again
 * Once done, create a new folder named `creatives`
 
 
