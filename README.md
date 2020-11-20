@@ -19,11 +19,11 @@
 
 ##### Uncompressed
 
-![Uncompressed](https://storage.googleapis.com/adlib-storage/code-inline/uncompress.png)
+![Uncompressed](https://storage.googleapis.com/adlib-storage/code-inline/uncompressed.png)
 
 ##### Compressed
 
-![Compressed](https://storage.googleapis.com/adlib-storage/code-inline/compress.png)
+![Compressed](https://storage.googleapis.com/adlib-storage/code-inline/compressed.png)
 
 
 ## Requirements
