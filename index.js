@@ -66,7 +66,7 @@ getDirectories("creatives").forEach((dir) => {
                     'index.html'
                 ), 
                 beautify(
-                    result.replace(/\.\//g, ".").replace(/assets|images/g , '')), 
+                    result.replace(/\.\//g, ".").replace(/assets|images/g , '.').replace(/\..\//g, "./")), 
                     function (err) {
                         if (err) throw err;
                         console.log(`${dir} inline file is created successfully.`);

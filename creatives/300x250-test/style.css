@@ -1,0 +1,27 @@
+@font-face {
+	font-family: Nespresso-light;
+	src: url("font.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+#main{
+	position: absolute;
+	width: 300px;
+	height: 250px;
+	top: 0;
+	left: 0;
+	background: #fff;
+	border: 1px solid #000;
+	box-sizing: border-box;
+}
+
+
+#headline1{
+	position: absolute;
+	font-family: Nespresso-light;
+	color: #fff;
+
+}
+
