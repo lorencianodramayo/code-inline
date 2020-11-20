@@ -36,10 +36,6 @@ getDirectories("creatives").forEach((dir) => {
         ? fs.mkdirSync(path.join("output", dir))
         : null;
 
-    (!fs.existsSync('creatives/300x600-Test/assets/image.jpg'))
-        ? fs.copyFileSync('creatives/300x600-Test/assets/image.jpg', 'output/300x600-Test/image.jpg')
-        : null;
-
     walkSync(path.join("creatives", dir)).forEach((file) => {
         if(!file.match(/js|css|html/g)){
             (!fs.existsSync(path.join("output", dir, file.split('/').pop(-1))))
