@@ -59,6 +59,7 @@ getDirectories("creatives").forEach((dir) => {
     },
     ( err, result ) => {
         if(!err){
+            console.log(result)
             fs.writeFile(
                 path.join(
                     'output', 
@@ -66,7 +67,11 @@ getDirectories("creatives").forEach((dir) => {
                     'index.html'
                 ), 
                 beautify(
-                    result.replace(/\.\//g, ".").replace(/assets|images/g , '.').replace(/\..\//g, "./")), 
+                    result
+                        .replace(/\.\//g, ".")
+                        .replace(/assets|images/g , '.')
+                        .replace(/\..\//g, "./")
+                        .replace(/\.\/3915781/g, "assets/3915781")),
                     function (err) {
                         if (err) throw err;
                         console.log(`${dir} inline file is created successfully.`);
